@@ -1,0 +1,4 @@
+{
+    "AllChildrenNoVaryingAttributeBehavior": "DoNotSend",
+    "SomeChildrenNoVaryingAttributeBehavior": "DoNotSend"
+}

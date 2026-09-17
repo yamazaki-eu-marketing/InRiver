@@ -1,0 +1,377 @@
+{
+    "Product": [
+        {
+            "InRiver": "ProductShopifyHandle",
+            "Target": "handle",
+            "Options": {
+                "ShopifyDataType": "single_line_text_field"
+            }
+        },
+        {
+            "InRiver": "ProductName",
+            "Target": "title"
+        },
+        {
+            "InRiver": "ProductFullSalesCopy",
+            "Target": "descriptionHtml"
+        },
+        {
+            "InRiver": "ProductShopifyTags",
+            "Target": "tags"
+        },
+        {
+            "InRiver": "ProductType",
+            "Target": "productType",
+            "Options": {
+                "ShopifyDataType": "single_line_text_field",
+                "ValueListExportMode": "Value"
+            }
+        },
+        {
+            "InRiver": "ProductSEOTitle",
+            "Target": "seo.title"
+        },
+        {
+            "InRiver": "ProductSEODescription",
+            "Target": "seo.description"
+        },
+        {
+            "InRiver": "ProductHeading",
+            "Target": "custom.short_description",
+            "Options": {
+                "ShopifyDataType": "single_line_text_field",
+                "UnstructuredMetafield": true
+            }
+        },
+        {
+            "InRiver": "ProductBulletPoint1",
+            "Target": "accentuate.bullet_point1",
+            "Options": {
+                "ShopifyDataType": "multi_line_text_field"
+            }
+        },
+        {
+            "InRiver": "ProductBulletPoint2",
+            "Target": "accentuate.bullet_point2",
+            "Options": {
+                "ShopifyDataType": "multi_line_text_field"
+            }
+        },
+        {
+            "InRiver": "ProductBulletPoint3",
+            "Target": "accentuate.bullet_point3",
+            "Options": {
+                "ShopifyDataType": "multi_line_text_field"
+            }
+        },
+        {
+            "InRiver": "ProductBulletPoint4",
+            "Target": "accentuate.bullet_point4",
+            "Options": {
+                "ShopifyDataType": "multi_line_text_field"
+            }
+        },
+        {
+            "InRiver": "ProductBulletPoint5",
+            "Target": "accentuate.bullet_point5",
+            "Options": {
+                "ShopifyDataType": "multi_line_text_field"
+            }
+        },
+        {
+            "InRiver": "ProductEnhancedHeadline1",
+            "Target": "product_info_1.title",
+            "Options": {
+                "ShopifyDataType": "single_line_text_field",
+                "UnstructuredMetafield": true
+            }
+        },
+        {
+            "InRiver": "ProductEnhancedCopy1",
+            "Target": "product_info_1.product_info",
+            "Options": {
+                "ShopifyDataType": "single_line_text_field",
+                "UnstructuredMetafield": true
+            }
+        },
+        {
+            "InRiver": "ProductEnhancedHeadline2",
+            "Target": "product_info_2.title",
+            "Options": {
+                "ShopifyDataType": "single_line_text_field",
+                "UnstructuredMetafield": true
+            }
+        },
+        {
+            "InRiver": "ProductEnhancedCopy2",
+            "Target": "product_info_2.product_info",
+            "Options": {
+                "ShopifyDataType": "single_line_text_field",
+                "UnstructuredMetafield": true
+            }
+        },
+        {
+            "InRiver": "ProductEnhancedHeadline3",
+            "Target": "product_info_3.title",
+            "Options": {
+                "ShopifyDataType": "single_line_text_field",
+                "UnstructuredMetafield": true
+            }
+        },
+        {
+            "InRiver": "ProductEnhancedCopy3",
+            "Target": "product_info_3.product_info",
+            "Options": {
+                "ShopifyDataType": "single_line_text_field",
+                "UnstructuredMetafield": true
+            }
+        },
+        {
+            "InRiver": "ProductFAQQuestion1",
+            "Target": "accentuate.faq_question1",
+            "Options": {
+                "ShopifyDataType": "multi_line_text_field"
+            }
+        },
+        {
+            "InRiver": "ProductFAQAnswer1",
+            "Target": "accentuate.faq_answer1",
+            "Options": {
+                "ShopifyDataType": "multi_line_text_field"
+            }
+        },
+        {
+            "InRiver": "ProductFAQQuestion2",
+            "Target": "accentuate.faq_question2",
+            "Options": {
+                "ShopifyDataType": "multi_line_text_field"
+            }
+        },
+        {
+            "InRiver": "ProductFAQAnswer2",
+            "Target": "accentuate.faq_answer2",
+            "Options": {
+                "ShopifyDataType": "multi_line_text_field"
+            }
+        },
+        {
+            "InRiver": "ProductFAQQuestion3",
+            "Target": "accentuate.faq_question3",
+            "Options": {
+                "ShopifyDataType": "multi_line_text_field"
+            }
+        },
+        {
+            "InRiver": "ProductFAQAnswer3",
+            "Target": "accentuate.faq_answer3",
+            "Options": {
+                "ShopifyDataType": "multi_line_text_field"
+            }
+        },
+        {
+            "InRiver": "ProductSeries",
+            "Target": "accentuate.Series",
+            "Options": {
+                "ShopifyDataType": "single_line_text_field",
+                "ValueListExportMode": "Key"
+            }
+        },
+        {
+            "InRiver": "ProductAssemblyStatus",
+            "Target": "accentuate.assembly",
+            "Options": {
+                "ShopifyDataType": "multi_line_text_field",
+                "ValueListExportMode": "Value"
+            }
+        },
+        {
+            "InRiver": "ProductShopifyProductStatus",
+            "Target": "status",
+            "Options": {
+                "ShopifyDataType": "single_line_text_field",
+                "ValueListExportMode": "Key"
+            }
+        },
+        {
+            "InRiver": "ProductMaterial",
+            "Target": "accentuate.material",
+            "Options": {
+                "ShopifyDataType": "multi_line_text_field"
+            }
+        },
+        {
+            "InRiver": "ProductMaxLoadingWeight",
+            "Target": "accentuate.loadbearing_weight",
+            "Options": {
+                "ShopifyDataType": "multi_line_text_field"
+            }
+        },
+        {
+            "InRiver": "ProductCapacity",
+            "Target": "accentuate.capacity",
+            "Options": {
+                "ShopifyDataType": "multi_line_text_field"
+            }
+        },
+        {
+            "InRiver": "ProductIncludes",
+            "Target": "accentuate.includes",
+            "Options": {
+                "ShopifyDataType": "multi_line_text_field"
+            }
+        },
+        {
+            "InRiver": "ProductDesignedIn",
+            "Target": "accentuate.designed_in_japan",
+            "Options": {
+                "ShopifyDataType": "multi_line_text_field"
+            }
+        },
+        {
+            "InRiver": "ProductDimensions",
+            "Target": "accentuate.dimensions_details",
+            "Options": {
+                "ShopifyDataType": "multi_line_text_field"
+            }
+        },
+        {
+            "InRiver": "ProductTypeOfWood",
+            "Target": "accentuate.wood_type",
+            "Options": {
+                "ShopifyDataType": "multi_line_text_field",
+                "ValueListExportMode": "Value"
+            }
+        },
+        {
+            "InRiver": "ProductCertifications",
+            "Target": "certifications.certifications",
+            "Options": {
+                "ShopifyDataType": "single_line_text_field",
+                "UnstructuredMetafield": true
+            }
+        },
+        {
+            "InRiver": "ProductCareInstructions",
+            "Target": "care_instructions.care_instructions",
+            "Options": {
+                "ShopifyDataType": "single_line_text_field",
+                "UnstructuredMetafield": true
+            }
+        },
+        {
+            "InRiver": "ProductShopifyInriverCreated",
+            "Target": "custom.inriver_created",
+            "Options": {
+                "ShopifyDataType": "boolean"
+            }
+        },
+        {
+            "InRiver": "ProductFinishOfSteel",
+            "Target": "checkoutblocks.trigger",
+            "Options": {
+                "ShopifyDataType": "single_line_text_field",
+                "ValueListExportMode": "Value",
+                "UnstructuredMetafield": true
+            }
+        },
+        {
+            "InRiver": "ProductGoogleCateg",
+            "Target": "mm-google-shopping.google_product_category",
+            "Options": {
+                "ShopifyDataType": "single_line_text_field",
+                "ValueListExportMode": "Key",
+                "UnstructuredMetafield": true
+            }
+        },
+        {
+            "InRiver": "ProductShopifyVideoUrl",
+            "Target": "product_video_url.product_video_url",
+            "Options": {
+                "ShopifyDataType": "single_line_text_field",
+                "UnstructuredMetafield": true
+            }
+        },
+        {
+            "InRiver": "ProductShopifyDiagramImageUrl",
+            "Target": "Diagram.diagram_image",
+            "Options": {
+                "ShopifyDataType": "single_line_text_field",
+                "UnstructuredMetafield": true
+            }
+        },
+        {
+            "InRiver": "ProductShopifyAssemblyUrl",
+            "Target": "assembly_url.assembly_url",
+            "Options": {
+                "ShopifyDataType": "single_line_text_field",
+                "UnstructuredMetafield": true
+            }
+        },
+        {
+            "InRiver": "ShopifyEnhancedContentImageOne",
+            "Target": "product_info_1.product_image",
+            "Options": {
+                "ShopifyDataType": "single_line_text_field",
+                "UnstructuredMetafield": true
+            }
+        },
+        {
+            "InRiver": "ShopifyEnhancedContentImageTwo",
+            "Target": "product_info_2.product_image",
+            "Options": {
+                "ShopifyDataType": "single_line_text_field",
+                "UnstructuredMetafield": true
+            }
+        },
+        {
+            "InRiver": "ShopifyEnhancedContentImageThree",
+            "Target": "product_info_3.product_image",
+            "Options": {
+                "ShopifyDataType": "single_line_text_field",
+                "UnstructuredMetafield": true
+            }
+        }
+    ],
+    "Variant": [
+        {
+            "InRiver": "ItemColor",
+            "Target": "color.color",
+            "Options": {
+                "ShopifyDataType": "single_line_text_field",
+                "ValueListExportMode": "Value",
+                "UnstructuredMetafield": true
+            }
+        },
+        {
+            "InRiver": "ItemSKU",
+            "Target": "sku"
+        },
+        {
+            "InRiver": "ItemSKU",
+            "Target": "accentuate.item_no",
+            "Options": {
+                "ShopifyDataType": "multi_line_text_field"
+            }
+        },
+        {
+            "InRiver": "ItemEANCode",
+            "Target": "barcode"
+        },
+        {
+            "InRiver": "ItemPackageWeightG",
+            "Target": "accentuate.weight",
+            "Options": {
+                "ShopifyDataType": "number_integer"
+            }
+        },
+        {
+            "InRiver": "ItemCountryOfOrigin",
+            "Target": "accentuate.manufactured_in_china",
+            "Options": {
+                "ShopifyDataType": "multi_line_text_field",
+                "ValueListExportMode": "Value"
+            }
+        }
+    ],
+    "Resource": []
+}

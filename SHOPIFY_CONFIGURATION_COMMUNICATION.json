@@ -1,0 +1,7 @@
+{
+    "ShopDomain": "https://yamazakihome-eu.myshopify.com",
+    "ApiRetryConfiguration": {
+        "NumberOfCallRetry": 3,
+        "MinimumTimeToWaitInSeconds": 60
+    }
+}

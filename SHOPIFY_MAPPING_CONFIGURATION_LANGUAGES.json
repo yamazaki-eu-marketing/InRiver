@@ -1,0 +1,21 @@
+{
+    "DefaultLanguage": "en",
+    "LanguageMapping": [
+        {
+            "InRiver": "fr-FR",
+            "Target": "fr"
+        },
+        {
+            "InRiver": "de-DE",
+            "Target": "de"
+        },
+        {
+            "InRiver": "it-IT",
+            "Target": "it"
+        },
+        {
+            "InRiver": "es-ES",
+            "Target": "es"
+        }
+    ]
+}

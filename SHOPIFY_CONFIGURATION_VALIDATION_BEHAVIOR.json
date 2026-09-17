@@ -1,0 +1,6 @@
+{
+    "ShopifyFieldValidationBehavior": "Warning",
+    "ShopifyFieldValidationIgnoreNamespace": [
+        "accentuate"
+    ]
+}
