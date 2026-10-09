@@ -177,6 +177,14 @@
             }
         },
         {
+            "InRiver": "ProductSeries",
+            "Target": "custom.series",
+            "Options": {
+                "ShopifyDataType": "single_line_text_field",
+                "UnstructuredMetafield": true
+            }
+        },
+        {
             "InRiver": "ProductAssemblyStatus",
             "Target": "accentuate.assembly",
             "Options": {
@@ -221,10 +229,12 @@
             }
         },
         {
-            "InRiver": "ProductDesignedIn",
-            "Target": "accentuate.designed_in_japan",
+            "InRiver": "ProductCountryOfDesign",
+            "Target": "custom.designed_in",
             "Options": {
-                "ShopifyDataType": "multi_line_text_field"
+                "ShopifyDataType": "single_line_text_field",
+                "ValueListExportMode": "Value",
+                "UnstructuredMetafield": true
             }
         },
         {
@@ -232,6 +242,13 @@
             "Target": "accentuate.dimensions_details",
             "Options": {
                 "ShopifyDataType": "multi_line_text_field"
+            }
+        },
+        {
+            "InRiver": "ProductWeightKg",
+            "Target": "custom.weight",
+            "Options": {
+                "ShopifyDataType": "number_decimal"
             }
         },
         {
@@ -286,6 +303,14 @@
         {
             "InRiver": "ProductShopifyVideoUrl",
             "Target": "product_video_url.product_video_url",
+            "Options": {
+                "ShopifyDataType": "single_line_text_field",
+                "UnstructuredMetafield": true
+            }
+        },
+        {
+            "InRiver": "ProductShopifyVideoUrl",
+            "Target": "custom.video",
             "Options": {
                 "ShopifyDataType": "single_line_text_field",
                 "UnstructuredMetafield": true
