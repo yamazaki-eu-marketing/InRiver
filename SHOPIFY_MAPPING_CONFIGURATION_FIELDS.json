@@ -201,6 +201,13 @@
             }
         },
         {
+            "InRiver": "ProductMaterialSimple",
+            "Target": "product.material_simple",
+            "Options": {
+                "ShopifyDataType": "multi_line_text_field"
+            }
+        },
+        {
             "InRiver": "ProductMaterial",
             "Target": "accentuate.material",
             "Options": {
